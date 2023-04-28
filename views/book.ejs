@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+    <!--Swiper css File-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--awesome Fonts CDN Link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--custom css file-->
+
+    <link rel="stylesheet" href="/stylesheets/book.css">
+    
+<body>
+    <section class="header">
+
+        <a href="/" class="logo">Check-inn Paradise!</a>
+        <nav class="navbar">
+            <a href="/">home</a>
+            <a href="about">about</a>
+            <a href="package">package</a>
+            <a href="book">book</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+      
+    <section class="booking">
+
+        <h1 class="heading-title"></h1>
+
+        <form action="" method="post" class="book-form">
+
+            <div class="flex">
+
+                <div class="inputBox">
+                    <span>name :</span>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="enter your name" onfocus="this.placeholder=''" onblur="this.placeholder='enter your name'" name="name" > 
+                </div>
+
+                <br>
+
+                <div class="inputBox">
+                    <span>email :</span>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="enter your email" onfocus="this.placeholder=''" onblur="this.placeholder='enter your email'" name="email"> 
+                </div>
+
+                <br>
+                
+                <div class="inputBox">
+                    <span>phone :</span>
+                    <br>
+                    <br>
+                    <input type="number" placeholder="enter your number" onfocus="this.placeholder=''" onblur="this.placeholder='enter your number'" name="phone"> 
+                </div>
+
+                <br>
+                
+                <div class="inputBox">
+                    <span>address :</span>
+                    <br><br>
+                    <input type="text" placeholder="enter your address" onfocus="this.placeholder=''" onblur="this.placeholder='enter your address'" name="address"> 
+                </div>
+
+                <br>
+                
+                <div class="inputBox">
+                    <span>where  to:</span>
+                    <br><br>
+                    <input type="text" placeholder="place you want to visit" onfocus="this.placeholder=''" onblur="this.placeholder='place you want to visit'" name="location"> 
+                </div>
+
+                <br>
+                
+                <div class="inputBox">
+                    <span>How Many :</span><br><br>
+                    <input type="number" placeholder="how Many guests" onfocus="this.placeholder=''" onblur="this.placeholder='how Many guests'" name="guests"> 
+                </div>
+
+                <br>
+
+
+                <div class="inputBox">
+                    <span>Hotel Type</span><br><br>
+                    <select name="hotel_type">
+                        <option value="">select</option>
+                        <option value="Budget Hotel">Budget Hotel</option>
+                        <option value="standard Hotel">standard Hotel</option>
+                        <option value="premieum Hotel">premieum Hotel</option>
+                        <option value="deluex Hotel">deluex Hotel</option>
+                        <option value="luxury Hotel">luxury Hotel</option>
+                    </select>
+                </div>
+                
+                <br>
+
+                <div class="inputBox">
+                    <span>No. of Nights & Days</span><br><br>
+                    <select name="days">
+                        <option value="">select</option>
+                        <option value="6 Night & 7 Seven days">6 Night & 7 Seven days</option>
+                        <option value="6 days &  5 Nights">6 days &  5 Nights</option>
+                        <option value="4 Night & 5 Days">4 Night & 5 Days</option>
+                        <option value="3 NIGHTS AND 4 DAYS">3 NIGHTS AND 4 DAYS</option>
+                        <option value="2 NIGHTS AND 3 DAYS">2 NIGHTS AND 3 DAYS</option>
+                    </select>
+                </div>
+                
+                <br>
+                
+                <div class="inputBox">
+                    <span>package</span><br><br>
+                    <select name="package">
+                        <option value="">select</option>
+                        <option value="Honeymoon package">Honeymoon package</option>
+                        <option value="family package">Family package</option>
+                        <option value="vacation package">Vacation package</option>
+                        <option value="customize package">Customize package</option>
+                    </select>
+                </div>
+
+                <br>
+
+                
+                <div class="inputBox">
+                    <span>Adventures Activities</span><br><br>
+                    <select name="activities">
+                        <option value="">select</option>
+                        <option value="Sucba diving">Sucba diving</option>
+                        <option value="Underwater sea walk">Underwater sea walk</option>
+                        <option value="Jetski ride">Jetski ride</option>
+                        <option value="Banana ride">Banana ride</option>
+                        <option value="Glass bottom boat ride">Glass bottom boat ride</option>
+                        <option value="Andaman dolphin cruise">Andaman dolphin cruise</option>
+                        <option value="Trekking">Trekking</option>
+                        <option value="Fishing game">Fishing game</option>
+                    </select>
+                </div>
+                
+                <br>
+                <br>
+
+                <div class="inputBox">
+                    <span>arrivals :</span>
+                    <br><br>
+                    <input type="date" name="arrivals" required> 
+                </div>
+
+                <br>
+                <br>
+                
+                <div class="inputBox">
+                    <span>leaving :</span><br><br>
+                    <input type="date" name="leaving" required> 
+                </div>
+
+            </div>
+            <br>
+            
+
+            <input type="submit" value="submit" class="btn" name="send">
+
+        </form>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick link</h3>
+            <a href="/"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="about"> <i class="fas fa-angle-right"></i> about</a>
+            <a href="package"> <i class="fas fa-angle-right"></i> package</a>
+            <a href="book"> <i class="fas fa-angle-right"></i> book</a>
+        </div>
+
+        <div class="box">
+            <h3>quick link</h3>
+            <a href="#"> <i class="fas fa-angle-right"></i> ask question</a>
+            <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+            <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+            <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 73057-83768</a>
+            <a href="#"><i class="fas fa-envelope"></i> rffm4x@gmail.com</a>
+            <a href="#"><i class="fas fa-map"></i> Tamil Nadu ,India - 600033</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+        </div>
+
+    </div>
+
+    <div class="credit">credit by <span>Ahmed Bilal </span>|| all rights reserved! </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--swiper js link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<!--custom js File-->
+    <script src="/javascripts/script.js"></script>
+</body>
+</html>
